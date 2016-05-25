@@ -1,3 +1,9 @@
 build:
+  pre_ci_boot:
+    image_name:
+    - chetantarale/u14php7pls
+    image_tag:
+    - tip1
+    
   ci:
     - echo -e "Hello World!!"
