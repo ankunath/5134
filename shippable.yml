@@ -1,4 +1,3 @@
-build_image:chetantarale/u14php7pls
 build:
   ci:
     - echo -e "Hello World!!"
