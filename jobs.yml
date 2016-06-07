@@ -3,6 +3,6 @@ jobs:
     type: manifest
     steps:
       - GET project5134
-      - GET busybox2
+      #- GET busybox2
       - GET sample_ship_node_master
       - PUT busybox
