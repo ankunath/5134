@@ -2,6 +2,7 @@ jobs:
   - name: job5134
     type: manifest
     steps:
+      - GET busybox3
       - GET busybox2
       - GET testpr_master
       - PUT resource5134
