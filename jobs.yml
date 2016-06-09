@@ -4,5 +4,5 @@ jobs:
     steps:
       - GET resource5134
       #- GET busybox_Clone
-      - PUT busybox2
+      #- PUT busybox2
       - PUT busybox
