@@ -6,4 +6,5 @@ jobs:
       - GET testpr_master
       - PUT resource5134
       - PUT busybox
+      - PUT job2
 
