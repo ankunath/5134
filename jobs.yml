@@ -5,5 +5,5 @@ jobs:
       - GET resource5134
       - GET busybox_Clone
       - GET php-intl_master
-      #- PUT busybox2
+      - PUT busybox2
       - PUT busybox
