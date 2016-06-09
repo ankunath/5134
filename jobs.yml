@@ -6,4 +6,4 @@ jobs:
       - GET 5134_foo
       - PUT resource5134
       - PUT busybox
-      - PUT php-intl_master
+      #- PUT php-intl_master
