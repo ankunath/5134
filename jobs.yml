@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET resource5134
-      - GET busybox_Clone
-      - GET php-intl_master
+      #- GET busybox_Clone
+      #- GET php-intl_master
       #- PUT busybox2
       - PUT busybox
