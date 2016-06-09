@@ -22,3 +22,11 @@ resources:
       name: "library/busybox"
       isPull: true
       tag: latest
+
+  - name: busybox3
+    type: image
+    integration: dockerhub
+    source:
+      name: "library/busybox"
+      isPull: true
+      tag: latest
