@@ -3,5 +3,5 @@ jobs:
     type: manifest
     steps:
       - GET resource5134
-      - PUT busybox2
+      - GET busybox2
       - PUT busybox
