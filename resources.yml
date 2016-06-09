@@ -14,3 +14,11 @@ resources:
       name: "library/busybox"
       isPull: true
       tag: latest
+
+  - name: busybox_Clone
+    type: image
+    integration: dockerhub
+    source:
+      name: "library/busybox"
+      isPull: true
+      tag: latest
