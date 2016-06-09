@@ -6,4 +6,4 @@ jobs:
       #- GET busybox_Clone
       #- GET php-intl_master
       #- PUT busybox2
-      #- PUT busybox
+      - PUT busybox
