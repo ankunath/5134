@@ -15,7 +15,7 @@ resources:
       isPull: true
       tag: latest
 
-  - name: busybox_Clone
+  - name: busybox2
     type: image
     integration: dockerhub
     source:
