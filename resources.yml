@@ -1,5 +1,5 @@
 resources:
-  - name: project5134
+  - name: resource5134
     type: image
     integration: dockerhub
     source:
@@ -7,3 +7,10 @@ resources:
       isPull: true
       tag: latest
       
+  - name: busybox
+    type: image
+    integration: dockerhub
+    source:
+      name: "library/busybox"
+      isPull: true
+      tag: latest
