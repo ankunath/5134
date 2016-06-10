@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET busybox2
+      - GET error
       - PUT resource5134
       - PUT busybox
 
