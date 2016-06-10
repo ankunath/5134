@@ -5,5 +5,4 @@ jobs:
       - GET busybox2
       - PUT resource5134
       - PUT busybox
-     #- PUT job2
 
