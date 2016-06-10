@@ -1,9 +1,0 @@
-jobs:
-  - name: job5134
-    type: manifest
-    steps:
-      - GET busybox2
-      - PUT resource5134
-      - PUT busybox
-     #- PUT job2
-
