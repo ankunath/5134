@@ -4,5 +4,5 @@ jobs:
     steps:
       - GET busybox2
       - PUT resource5134
-      - PUT busybox2
+      - PUT busybox
 
