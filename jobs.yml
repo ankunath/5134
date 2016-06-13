@@ -1,8 +1,6 @@
 jobs:
-  - name: job513
+  - name: e2e-job2
     type: manifest
     steps:
-      - GET: busybox
-      - PUT: resource5134
-      #- PUT: busybox2
-
+      - PUT: output-image
+      - GET: input-image
