@@ -1,5 +1,5 @@
 jobs:
-  - name: e2e-job2
+  - name: job2
     type: manifest
     steps:
       - PUT: output-image
