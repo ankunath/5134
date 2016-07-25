@@ -1,9 +1,4 @@
-# language setting  
-language: node_js
 
-# Version number
-node_js:
-  - '0.10'
 
 env:
   global:
@@ -17,11 +12,3 @@ build:
   ci:
     - echo "Hello, World!"
 
-integrations:
-  notifications:
-    - integrationName: slack-test
-      type: slack
-      recipients: 
-        - "#testissues"
-
-      on_success: change
